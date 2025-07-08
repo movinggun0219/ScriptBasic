@@ -18,6 +18,10 @@ public class ExampleScript : MonoBehaviour
         {
             GetComponent<Renderer>().material.color = Color.blue;
         }
+        if (Input.GetKeyDown(KeyCode.V))
+        {
+            GetComponent<Renderer>().material.color = Color.black;
+        }
       
     }
 }
