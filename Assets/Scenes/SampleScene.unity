@@ -248,11 +248,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 842440039}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 326025a9723170b4089a29de2e00d46f, type: 3}
+  m_Script: {fileID: 11500000, guid: 61c147a99fd924b4592ab9c980b957c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  alpha: 29
-  beta: 100
+  publicValue: 5
+  pv2: 4
+  IsPublic: 0
 --- !u!1 &984614541
 GameObject:
   m_ObjectHideFlags: 0
