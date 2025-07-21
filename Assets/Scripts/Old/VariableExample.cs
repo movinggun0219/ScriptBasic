@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,6 +7,30 @@ public class VariableExample : MonoBehaviour
 {
     void Start()
     {
+        // 16진수
+        var hexLiteral = 0xaf;
+        // 2진수
+        var binaryLiter = 0b_0000_0001;
+
+        // 최대값, 최소값
+        int Max = int.MaxValue;
+        float f = float.MinValue;
+
+        bool b = default(bool); // b= false
+
+        string s1 = null;
+        string s2 = "";
+        string s3 = string.Empty;
+
+        if (s1 == s2)
+        {
+            Debug.Log("same");
+        }
+        else
+        {
+            Debug.Log("diff");
+        }
+
         int number1;
         number1 = 1;
 
