@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LerpSample : MonoBehaviour
 {
-    public Light light;
+    public Light light; 
     void Start()
     {
         Vector3 from = new Vector3(1f, 2f, 3f);
