@@ -22,6 +22,6 @@ public class DateTimeExample : MonoBehaviour
         DateTime tommorrow = today.AddDays(1);
         DateTime yesterday = today.AddDays(-1);
 
-        TimeSpan timeSpan = int Timespan.Days { get; }
+        //TimeSpan timeSpan = int Timespan.Days { get; }
     }
 }
